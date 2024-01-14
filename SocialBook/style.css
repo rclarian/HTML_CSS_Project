@@ -484,7 +484,12 @@ nav {
     overflow: hidden;
     top: 108%;
     right: 5%;
+    max-height: 0;
+    transition: max-height 0.1s;
+}
 
+.settings-menu-height {
+    max-height: 450px;
 }
 
 .user-profile a {
