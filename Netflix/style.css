@@ -91,6 +91,7 @@ nav button {
     background: transparent;
     color: #fff;
     padding: 15px 30px;
+    max-width: 600px
 }
 .email-signup button {
     background: #db0001;
@@ -192,4 +193,11 @@ input[type="radio"] {
 }
 .accordion input[type="radio"]:checked + label::after{
     transform: rotate(135deg);
+}
+.faq .email-signup {
+    max-width: 600px;
+    margin: 20px auto 60px;
+}
+.faq small {
+    font-size: 13px;
 }
